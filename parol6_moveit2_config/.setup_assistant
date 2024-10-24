@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: parol6_description
+    relative_path: urdf/parol6.urdf.xacro
+  srdf:
+    relative_path: config/parol6.srdf
+  package_settings:
+    author_name: filip zoric
+    author_email: filip.zoric@crobotics.tech
+    generated_timestamp: 1729727346
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
