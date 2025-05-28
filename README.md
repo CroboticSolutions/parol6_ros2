@@ -40,8 +40,9 @@ No end effector at this point and no root link, (maybe will require fix at some 
 - [x] Convert STLs to DAE files
 - [x] Create Moveit2! config package 
 - [x] Run Moveit2! demo for the Parol6
-- [ ] Check URDF used 
-- [ ] Run in the simulation
+- [x] Check URDF used 
+- [x] Run in the simulation
+- [ ] Fix SDF for the simulation 
 - [ ] Connect with the `arm_api2` 
 
 
